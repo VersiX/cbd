@@ -47,9 +47,12 @@ const Additional = (props) => {
 
 const Nav = (props) => {
     return <nav className="nav">
-        <Menu />
-        <Logo />
-        <Additional />
+        <div className="nav-wrapper">
+            <Menu />
+            <Logo />
+            <Additional />
+        </div>
+        <div className="nav__shadow" />
     </nav>;
 }
 
