@@ -1,0 +1,87 @@
+.about {
+  padding: 100px 0 200px 0;
+  width: 1170px;
+  margin: 0 auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-trust {
+  margin: 0 auto 90px auto;
+  width: 690px;
+  height: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: solid;
+  border-width: 12px 12px 12px 12px;
+  -o-border-image: url("./TrustBorder.png") 12 12 12 12 round round;
+     border-image: url("./TrustBorder.png") 12 12 12 12 round round;
+}
+
+.about-trust__title {
+  font-size: 24px;
+  font-family: "Oswald";
+  color: #1c1c1b;
+  text-transform: uppercase;
+}
+
+.about-tabs-tab {
+  margin: 80px 0 0 0;
+}
+
+.article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 1px 100px;
+      grid-template-areas: ". .";
+}
+
+.article-col__title {
+  margin: 30px 0 30px 0;
+  font-size: 24px;
+  font-family: "Oswald";
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.667;
+}
+
+.article-col__p {
+  margin: 50px 0 50px 0;
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #6e774a;
+  line-height: 2.222;
+  text-align: left;
+}
+
+.article-col__img {
+  margin-bottom: 30px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=about.css.map */
