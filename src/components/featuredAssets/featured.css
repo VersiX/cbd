@@ -1,0 +1,144 @@
+.featured {
+  padding: 0 0 140px 0;
+}
+
+.featured__title {
+  font-size: 30px;
+  font-family: "Oswald";
+  color: #1c1c1b;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.block {
+  width: 613px;
+  height: 504px;
+  background-color: blue;
+  margin: 0 20px 0 20px;
+}
+
+.Arr--l {
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  z-index: 50;
+}
+
+.Arr--r {
+  position: absolute;
+  right: 40%;
+  bottom: 0;
+  z-index: 51;
+}
+
+.customSlic .slick-list {
+  padding-bottom: 60px;
+}
+
+.product {
+  height: 504px;
+  padding: 0 20px 0 20px;
+}
+
+.product-main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ced6af;
+  background-color: white;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-main__title {
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #1c1c1b;
+  text-transform: uppercase;
+  line-height: 4.167;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.product-main img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-footer {
+  background-color: #f1f1f1;
+  height: 74px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-footer-inner {
+  height: 100%;
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  padding-left: 29px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-footer__button {
+  width: 188px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background-color: #6e774a;
+  font-size: 20px;
+  font-family: "Oswald";
+  color: white;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-footer__button svg {
+  padding-left: 20px;
+}
+
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rating svg {
+  margin: 0 2px 0 2px;
+}
+/*# sourceMappingURL=featured.css.map */
