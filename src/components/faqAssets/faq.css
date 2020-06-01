@@ -1,0 +1,65 @@
+.ReactCollapse--collapse {
+  -webkit-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+.ReactCollapse--content {
+  padding: 30px 0 30px 50px;
+}
+
+.faq {
+  padding-bottom: 150px;
+}
+
+.faq__title {
+  font-size: 30px;
+  font-family: "Oswald";
+  color: #1c1c1b;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.accordeon {
+  margin: 0 auto 0 auto;
+  padding: 0 15px 0 15px;
+  max-width: 570px;
+}
+
+.accordeon__btn {
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #6e774a;
+  text-align: left;
+  border: none;
+  border-bottom: 2px solid #eaedde;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+  width: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.accordeon__btn--active svg {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.accordeon__btn svg {
+  margin-right: 29px;
+}
+
+.accordeon__btn:first-of-type {
+  border-top: 2px solid #eaedde;
+}
+/*# sourceMappingURL=faq.css.map */
