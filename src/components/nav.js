@@ -26,10 +26,10 @@ const Search = (props) => {
 
 const Menu = (props) => {
     return <ul className="nav-menu">
-        <MenuItem link="#" text="HOME" />
-        <MenuItem link="#" text="PRODUCTS" />
-        <MenuItem link="#" text="FAQS" />
-        <MenuItem link="#" text="CONTACT US" />
+        <MenuItem link="#intro" text="HOME" />
+        <MenuItem link="#products" text="PRODUCTS" />
+        <MenuItem link="#faq" text="FAQS" />
+        <MenuItem link="#contact" text="CONTACT US" />
     </ul>;
 }
 

@@ -24,14 +24,14 @@ const RotatedText = (props) => {
 }
 
 const Arrow = (props) => {
-    return <div className="intro-arrow">
+    return <a href="#about" className="intro-arrow">
         <ArrowIcon />
-    </div>;
+    </a>;
 }
 
 
 const Intro = (props) => {
-    return <div className="intro">
+    return <div className="intro" id="intro">
         <Container />
         <RotatedText />
         <Arrow />

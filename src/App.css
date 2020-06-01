@@ -10,3 +10,7 @@ body {
     background-color: rgb(247, 248, 243);
 }
 
+html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 1s ease-in-out;
+}

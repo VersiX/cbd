@@ -60,7 +60,7 @@ const Trust = (props) => {
 
 
 const About = (props) => {
-    return <section className="about">
+    return <section className="about" id="about">
         <Trust />
         <InfoTabs />
     </section>;
