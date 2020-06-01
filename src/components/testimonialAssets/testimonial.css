@@ -1,0 +1,95 @@
+.testimonial {
+  position: relative;
+  background-image: url("testimonial-bg.png");
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.testimonial__cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 32, 11, 0.6);
+}
+
+.testimonial-rotated {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transform: rotate(90deg) translate(-100%, -200%);
+          transform: rotate(90deg) translate(-100%, -200%);
+}
+
+.testimonial-rotated__text {
+  margin-left: 30px;
+  font-size: 26px;
+  font-family: "Oswald";
+  color: white;
+  text-transform: uppercase;
+}
+
+.testimonial-slick {
+  height: 100%;
+}
+
+.tArr--l {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  z-index: 79;
+}
+
+.tArr--r {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 80;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.comment__text {
+  font-size: 22px;
+  font-family: "Oswald";
+  color: white;
+  line-height: 1.818;
+  text-align: center;
+  max-width: 747px;
+  margin: 35px 0 20px 0;
+}
+
+.comment__author {
+  font-size: 24px;
+  font-family: "Oswald";
+  color: white;
+  text-transform: uppercase;
+  max-width: 747px;
+  margin: 0;
+}
+/*# sourceMappingURL=testimonial.css.map */

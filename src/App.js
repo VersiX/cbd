@@ -5,6 +5,8 @@ import Intro from './components/intro';
 import About from './components/about';
 import Featured from './components/featured';
 import Faq from './components/faq';
+import Testimonial from './components/testimonials';
+
 
 
 
@@ -16,6 +18,7 @@ function App() {
       <About />
       <Featured />
       <Faq />
+      <Testimonial />
     </div>
   );
 }
