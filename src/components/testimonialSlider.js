@@ -37,13 +37,16 @@ function SamplePrevArrow(props) {
 export default class TestimonialSlider extends Component {
     render() {
         const settings = {
+            speed: 1500,
             dots: false,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
-            className: "testimonial-slick"
+            className: "testimonial-slick",
+            autoplay: true,
+            autoplaySpeed: 3500,
         };
         return (
             <Slider {...settings}>
