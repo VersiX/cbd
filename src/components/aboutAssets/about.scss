@@ -1,6 +1,6 @@
 .about {
-    padding: 100px 0 100px 0;
-    width: 1170px;
+    padding: 100px 15px 100px 15px;
+    max-width: 1170px;
     margin: 0 auto 0 auto;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@
         margin: 0 auto 90px auto;
         width: 690px;
         height: 200px;
+        max-width: 80vw;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -23,6 +24,12 @@
             font-family: "Oswald";
             color: rgb(28, 28, 27);
             text-transform: uppercase;
+        }
+
+        &__img {
+            display: block;
+            width: 100%;
+
         }
     }
     &-tabs {
@@ -65,4 +72,16 @@
             object-fit: contain;
         }
     }
+}
+@media only screen and (max-width:767px){
+
+    .article {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1px 100px;
+        grid-template-areas: ". "".";
+    
+    }
+
 }

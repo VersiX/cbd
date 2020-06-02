@@ -36,7 +36,7 @@
 .footer-head__line {
   border-left: none;
   border-right: none;
-  width: 100%;
+  max-width: 100%;
   height: 0px;
   border-top: 1px solid #6e774a;
   border-bottom: 1px solid #6e774a;
@@ -46,6 +46,7 @@
 .footer-head__title {
   font-size: 60px;
   font-family: "Oswald";
+  text-align: center;
   color: #6e774a;
   margin: 0 150px 0 150px;
   line-height: 0.9;
@@ -150,5 +151,43 @@
 
 .social svg {
   margin: 0 30px 0 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+    padding-top: 0;
+  }
+  .footer-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 0px;
+        grid-template-areas: "footer-column-left" "footer-column-center" "footer-column-right";
+  }
+  .footer-grid-column-left {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: footer-column-left;
+  }
+  .footer-grid-column-center {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: footer-column-center;
+  }
+  .footer-grid-column-right {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: footer-column-right;
+  }
+  .footer-head__title {
+    margin-bottom: 0;
+  }
+  .footer-form {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
