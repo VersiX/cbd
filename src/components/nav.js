@@ -15,11 +15,8 @@ const Search = (props) => {
     }
 
     return <div className="nav-additional__item" onClick={ActiveChange}>
-        <input className={isActive ? "search__input" : "search__input search--hidden"} />
-
-        <SearchLogo />
-
-        <div className={isActive ? "search__text search--hidden" : "search__text"}> Search</div>
+        <button className="search-btn"><SearchLogo /></button>
+        <input className="search__input" type="text" placeholder="SEARCH" />
     </div >;
 }
 
