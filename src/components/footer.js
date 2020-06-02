@@ -60,7 +60,7 @@ const FooterBody = (props) => {
 
 
 const Footer = (props) => {
-    return <div className="footer">
+    return <div className="footer" id="contact">
         <FooterHead />
         <FooterBody />
     </div>;
