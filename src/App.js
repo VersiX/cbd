@@ -6,6 +6,7 @@ import About from './components/about';
 import Featured from './components/featured';
 import Faq from './components/faq';
 import Testimonial from './components/testimonials';
+import Footer from './components/footer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Featured />
       <Faq />
       <Testimonial />
+      <Footer />
     </div>
   );
 }
