@@ -3,19 +3,16 @@
     position: fixed;
     top: 0px;
     width: 100vw;
-    height: 100vh;
-   
+    
     background-color: transparent;
     
     font-size: 16px;
     font-family: "Oswald";
     &-wrapper {
-        position: absolute;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 100%;
         border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     }
 
@@ -146,9 +143,13 @@
             top:15px
         }
         &-wrapper {
+            position: absolute;
+
             flex-direction: column;
             justify-content: center;
             top: -100%;
+            height: 100%;
+
             &--res {
                 transform: translate(0, 100%);
                 transition: transform 0.5s ease;

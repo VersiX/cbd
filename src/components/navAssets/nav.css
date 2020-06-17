@@ -3,14 +3,12 @@
   position: fixed;
   top: 0px;
   width: 100vw;
-  height: 100vh;
   background-color: transparent;
   font-size: 16px;
   font-family: "Oswald";
 }
 
 .nav-wrapper {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +19,6 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -189,6 +186,7 @@
     top: 15px;
   }
   .nav-wrapper {
+    position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -197,6 +195,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     top: -100%;
+    height: 100%;
   }
   .nav-wrapper--res {
     -webkit-transform: translate(0, 100%);
